@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        font-family: 'Times New Roman', Times, serif;
+         margin: 0;
+         padding: 20px;
+        }
+    label{
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #333;
+            
+    }
+    .Late{
+            max-width: 600px;
+            margin:40px auto;
+            padding: 30px;
+            box-shadow: 0px  8px 8px  rgba(0,0,0.5,0.5);
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="Email"],
+    input[type="Rdio"],
+    input[type="text"],select,
+    textarea
+    {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+     textarea {
+      resize: vertical;
+      height: 100px;
+    }
+     button[type="submit"]{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        color: black;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        border-radius: 13px;
+       }
+    button[type="submit"]:hover{
+        background-color:gray;
+        align-items: center;
+       }
+    a {
+         text-decoration: none;
+         color: black;
+    }   
+
+    </style>
+</head>
+<body>
+    <nav>
+        <h2 align="center">Register Page</h2>
+    </nav>
+    <br><br>
+<div class="label1">
+ <form class="Late">
+    <label>Full NAME: <span style="color: red;">*</span> </label>
+        <INPUT TYPE="text">
+        <br><br>
+            <label>Create Your User Naame <span style="color: red;">*</span></label>
+            <input type="text"placeholder="sarvesh_0002">
+            <br><br>
+            <label>Set your Password <span style="color: red;">*</span></label>
+            <input type="password"placeholder="********"required >
+            <br><br>
+            <label> Email <span style="color: red;">*</span></label>
+                <input type="email"placeholder="@1212"required >
+            <br><br>
+            <label>Gender: </label>
+            <input type="radio"nmae="op"value="op1">Male<input type="radio"nmae="op"value="op1">Female
+            <br><br>
+            <label>Address<span style="color: red;">*</span></label>
+            <input type="text" valu="Address">
+            <br><br>
+            <label>profile summary</label><BR><br>
+            <textarea rows="5"cols="20"></textarea>
+            <br><br>
+            <button type="submit" >Register</button>
+             </form>   
+</body>
+</html>
